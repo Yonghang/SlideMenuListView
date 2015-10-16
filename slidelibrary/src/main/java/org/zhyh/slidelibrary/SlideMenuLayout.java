@@ -165,6 +165,7 @@ class SlideMenuLayout extends FrameLayout {
     private void flashMenuView() {
         mMenuView.setId(MENU_VIEW_ID);
         mMenuView.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+        mMenuView.setPosition(position);
         addView(mMenuView);
     }
 
